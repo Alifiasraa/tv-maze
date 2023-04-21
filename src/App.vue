@@ -39,11 +39,19 @@
             <div v-if="show.show.summary">
               <div
                 v-html="show.show.summary"
-                class="mb-2 mx-4 line-clamp-5 text-justify"
+                class="mb-12 mx-4 line-clamp-5 text-justify"
               ></div>
             </div>
-            <div v-else>
-              <p class="m-auto">No information yet</p>
+            <div v-else class="flex items-center justify-center">
+              <p class="h-24">No information yet</p>
+            </div>
+
+            <div class="flex justify-center relative">
+              <button
+                class="px-10 py-1 text-l text-white hover:underline bg-[#7f5af0] hover:bg-[#2cb67d] fixed bottom-3"
+              >
+                See More
+              </button>
             </div>
           </div>
         </div>
