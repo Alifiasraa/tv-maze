@@ -5,7 +5,7 @@
     >
       <input
         class="w-5/6 pl-2 focus:outline-none bg-[#7f5af0] text-white"
-        placeholder="Type anything here..."
+        placeholder="Search series or movies"
       />
 
       <button class="absolute right-5">
