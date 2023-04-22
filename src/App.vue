@@ -2,18 +2,21 @@
   <div id="app" class="bg-[#232946]">
     <Header />
     <HomePage />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HomePage from "./components/HomePage.vue";
 import Header from "./components/Header.vue";
+import HomePage from "./components/HomePage.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    HomePage,
     Header,
+    HomePage,
+    Footer,
   },
 };
 </script>
