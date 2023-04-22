@@ -7,10 +7,20 @@
         <div
           class="border border-slate-400 rounded-3xl drop-shadow-xl h-full p-2 text-white"
         >
-          <!-- name -->
-          <p class="text-lg font-semibold text-center pb-3">
+          <!-- name, rating-->
+          <p class="text-lg font-semibold text-center">
             {{ show.show.name }}
           </p>
+          <div class="flex justify-center pb-3 items-center">
+            <font-awesome-icon
+              icon="fa-solid fa-star"
+              size="sm"
+              style="color: #f7e302"
+            />
+            <span class="ml-1">{{
+              show.show.rating.average ? show.show.rating.average : "-"
+            }}</span>
+          </div>
 
           <!-- image -->
           <div class="flex justify-center">
